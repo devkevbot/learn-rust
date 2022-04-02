@@ -7,6 +7,7 @@ edition = "2021"
 
 [dependencies]
 rand = "0.8.5"
+actix-web = "4"
 
 [[bin]]
 path = "src/guessing-game/main.rs"
@@ -16,4 +17,6 @@ name = "guessing-game"
 path = "src/error-handling/main.rs"
 name = "error-handling"
 
-
+[[bin]]
+path = "src/web-server/main.rs"
+name = "web-server"
