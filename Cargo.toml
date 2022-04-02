@@ -1,5 +1,5 @@
 [package]
-name = "rust-guessing-game"
+name = "learn-rust"
 version = "0.1.0"
 edition = "2021"
 
@@ -7,5 +7,13 @@ edition = "2021"
 
 [dependencies]
 rand = "0.8.5"
+
+[[bin]]
+path = "src/guessing-game/main.rs"
+name = "guessing-game"
+
+[[bin]]
+path = "src/error-handling/main.rs"
+name = "error-handling"
 
 
