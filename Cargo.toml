@@ -20,3 +20,7 @@ name = "error-handling"
 [[bin]]
 path = "src/web-server/main.rs"
 name = "web-server"
+
+[[bin]]
+path = "src/shapes/main.rs"
+name = "shapes"
